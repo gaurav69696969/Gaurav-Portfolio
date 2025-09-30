@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Download } from "lucide-react"; 
 // Use a public URL for the PDF file
-const pdf = "/Gaurav Kamal Resume 1.pdf";
+const pdf = "/Gaurav kamal Resume.pdf";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
